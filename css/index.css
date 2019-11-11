@@ -79,8 +79,18 @@ aside + aside{
     background-color: #41B6F7;
 }
 
-.main__canvas{
-    width: 512px;
-    height: 512px;
-    background-color: #C4C4C4;
+
+.main__select{
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.24);
+    height: 150px;
+}
+
+.main__select-list{
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+.main__select-option{
+    padding-top: 10px;;
 }

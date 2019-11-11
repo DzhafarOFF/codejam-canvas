@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Canvas</title>
     <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
 </head>
 <body>
     <header>
@@ -61,9 +62,17 @@
                 </ul>
             </aside>
         </div>
-        <div class="main__canvas">
-            
-        </div>
+        <canvas id="main__canvas" width="512" height="512">
+
+        </canvas>
+        <form action="" class="main__select" name="form">
+            <ul class="main__select-list">
+                Choose size:
+                <li class="main__select-option"><input type="radio" name="size" id="" value="4">4x4</li>
+                <li class="main__select-option"><input type="radio" name="size" id="" value="32">32x32</li>
+                <li class="main__select-option"><input type="radio" name="size" id="" value="256">256x256</li>
+            </ul>          
+        </form>
     </main>
 </body>
 </html>
